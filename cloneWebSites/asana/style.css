@@ -1,3 +1,31 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+/* nav bar */
+nav {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  background-color: #f6f8f9;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+#logo {
+  width: 124px;
+  height: 31px;
+}
+
 /* 
  Nav Bar 
  code from my hamberger icon, can I reuse this code to make it work for this nav bar?
