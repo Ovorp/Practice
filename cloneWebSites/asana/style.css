@@ -5,15 +5,17 @@
 }
 
 body {
+  font-family: gordita, Helvetica Neue, Helvetica, sans-serif;
   background-color: #ffffff;
 }
 
 /* nav bar */
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   list-style: none;
   background-color: #f6f8f9;
+  padding-top: 15px;
 }
 
 ul {
@@ -21,9 +23,14 @@ ul {
   list-style: none;
 }
 
+.nav_bar_links_left {
+  margin: 0px 30px;
+}
+
 #logo {
   width: 124px;
   height: 31px;
+  margin-left: calc(100vw * 0.05);
 }
 
 /* 
