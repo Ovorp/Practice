@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: gordita, Helvetica Neue, Helvetica, sans-serif;
+  font-family: gordita, Helvetica, Neue, Helvetica, sans-serif;
   background-color: #ffffff;
 }
 
@@ -51,6 +51,18 @@ li {
 }
 
 /* Right nav bar  */
+
+#try-button {
+  height: 36px;
+  width: 115px;
+  background-color: #796eff;
+  color: white;
+  font-family: inherit;
+  border: none;
+  font-size: 17px;
+  font-weight: ;
+  border-radius: 3px;
+}
 
 /* 
  Nav Bar 
