@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: gordita, Helvetica, Neue, Helvetica, sans-serif;
+  font-family: gordita, 'Helvetica Neue', Helvetica, sans-serif;
   background-color: #ffffff;
 }
 
@@ -19,8 +19,20 @@ nav {
   list-style: none;
   background-color: #f6f8f9;
   color: #646f79;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 16px;
+}
+
+.down-arrow {
+  margin-left: 10px;
+  margin-top: 5px;
+  height: 2px;
+  border: solid black;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 2px;
+  transform: rotate(45deg);
+  opacity: 0.3;
 }
 
 /* left nav bar  */
@@ -52,7 +64,7 @@ li {
 
 /* Right nav bar  */
 
-#try-button {
+.try-button {
   height: 36px;
   width: 115px;
   background-color: #796eff;
@@ -60,8 +72,42 @@ li {
   font-family: inherit;
   border: none;
   font-size: 17px;
-  font-weight: ;
+  /* font-weight: ; */
   border-radius: 3px;
+}
+
+/* header stuff  */
+header {
+  background-color: #f6f8f9;
+  width: auto;
+  height: 74vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: calc(42px + 14 * ((100vw - 480px) / 800));
+  line-height: 1.285;
+  color: #151b26;
+  font-weight: 100;
+  margin-top: 0;
+}
+
+header > .try-button {
+  height: 50px;
+  width: 143px;
+}
+
+header > p {
+  color: #646f79;
+  font-size: 22px;
+  height: auto;
+  width: 50vw;
+  text-align: center;
+  margin: 30px 0px;
+  line-height: 36px;
 }
 
 /* 
